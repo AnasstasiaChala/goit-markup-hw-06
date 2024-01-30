@@ -64,6 +64,73 @@
       </div>
     </header>
 
+    <!-- <div class="mob-menu">
+      <button class="mob-close-btn" type="button">
+        <svg class="mob-icon-close" width="8" height="8">
+          <use href="./images/symbol-close.svg#icon-close-black"></use>
+        </svg>
+      </button>
+      <nav class="mob-navigation">
+        <ul class="mob-nav-list">
+          <li class="mob-studio">
+            <a class="mob-nav-link mob-studio-link" href="./index.html"
+              >Studio</a
+            >
+          </li>
+          <li><a class="mob-nav-link" href="">Portfolio</a></li>
+          <li><a class="mob-nav-link" href="">Contacts</a></li>
+        </ul>
+      </nav>
+      <div>
+        <address class="mob-adress" id="Contacts">
+          <ul class="mob-adress-list">
+            <li>
+              <a class="mob-adress-link mob-tel" href="tel:+110001111111">
+                +11 (000) 111-11-11
+              </a>
+            </li>
+            <li>
+              <a class="mob-adress-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
+      <div>
+        <ul class="mob-media-list">
+          <li class="mob-media-items">
+            <a href="" target="_blank" class="mob-link-media">
+              <svg class="mob-icon-media" width="16" height="16">
+                <use href="./images/icons_2.svg#icon-instagram_2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-media-items">
+            <a href="" target="_blank" class="mob-link-media">
+              <svg class="mob-icon-media" width="16" height="16">
+                <use href="./images/icons_2.svg#icon-twitter_1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-media-items">
+            <a href="" target="_blank" class="mob-link-media">
+              <svg class="mob-icon-media" width="16" height="16">
+                <use href="./images/icons_2.svg#icon-facebook_1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-media-items">
+            <a href="" target="_blank" class="mob-link-media">
+              <svg class="mob-icon-media" width="16" height="16">
+                <use href="./images/icons_2.svg#icon-linkedin_1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div> -->
+
     <main class="main">
       <section class="hero">
         <div class="container hero-container">
@@ -330,6 +397,29 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="portfolio-cover-wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-1.jpg     1x,
+                      ./images/pictures/img@2x-1-lap.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-1.jpg      1x,
+                      ./images/pictures/img@2x-1-tabl.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-1.jpg     1x,
+                      ./images/pictures/img@2x-1-mob.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                </picture>
                 <img
                   src="./images/banking-app-img-1.jpg"
                   alt="BankApp"
@@ -350,6 +440,26 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-cover-wrap">
+                <picture>
+                  <sourse
+                    srcset="./images/pictures/img@1x-2.jpg 1x, ./images/pictures/img@2x-2-lap.jpg 2x"
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-2.jpg      1x,
+                      ./images/pictures/img@2x-2-tabl.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-2.jpg     1x,
+                      ./images/pictures/img@2x-2-mob.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                </picture>
                 <img
                   src="./images/cashless-payment-img-1.jpg"
                   alt="Two smartphones with QR codes on them"
@@ -370,6 +480,29 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-cover-wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-3.jpg     1x,
+                      ./images/pictures/img@2x-3-lap.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-3.jpg      1x,
+                      ./images/pictures/img@2x-3-tabl.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-3.jpg     1x,
+                      ./images/pictures/img@2x-3-mob.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                </picture>
                 <img
                   src="./images/meditation-app-img-1.jpg"
                   alt="Meditation app on a laptop and smartphone"
@@ -390,6 +523,29 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-cover-wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-4.jpg    1x,
+                      ./images/picture/img@2x-4-lap.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-4.jpg      1x,
+                      ./images/pictures/img@2x-4-tabl.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-4.jpg     1x,
+                      ./images/pictures/img@2x-4-mob.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                </picture>
                 <img
                   src="./images/taxi-service-img-1.jpg"
                   alt="Steering wheel of a taxi car"
@@ -410,6 +566,29 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-cover-wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-5.jpg    1x,
+                      ./images/picture/img@2x-5-lap.jpg 2x
+                    "
+                    media="(min-width:1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-5.jpg      1x,
+                      ./images/pictures/img@2x-5-tabl.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-5.jpg     1x,
+                      ./images/pictures/img@2x-5-mob.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                </picture>
                 <img
                   src="./images/screen-illustrations-img-1.jpg"
                   alt="Screen illustrarions"
@@ -430,6 +609,29 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-cover-wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-6.jpg    1x,
+                      ./images/picture/img@2x-6-lap.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-6.jpg      1x,
+                      ./images/pictures/img@2x-6-tabl.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/pictures/img@1x-6.jpg     1x,
+                      ./images/pictures/img@2x-6-mob.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                </picture>
                 <img
                   src="./images/online-courses-img-1.jpg"
                   alt="Girl talking on the phone"
