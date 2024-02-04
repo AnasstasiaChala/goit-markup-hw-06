@@ -304,36 +304,10 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 @media screen and (min-device-pixel-ration: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/people-office@2x-mob.jpg);
+            url(../images/people-office-mob-2x.jpg);
     }
 }
 
-@media screen and (min-width: 768px) {
-    .hero {
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office-tabl.jpg);
-    }
-}
-
-@media screen and (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
-    .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/people-office@2x-tabl.jpg);
-    }
-}
-
-@media screen and (min-width: 1158px) {
-    .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/people-office-lap.jpg);
-    }
-}
-@media screen and (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
-    .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/people-office@2x-lap.jpg);
-    }
-}
 .hero-title {
 color: var(--WHITE, #FFF);
     text-align: center;
@@ -376,7 +350,17 @@ font-family: "Roboto", sans-serif;
     .hero {
         padding-top: 112px;
         padding-bottom: 112px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/people-office-tab.jpg);
     }
+        @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 2dppx),
+        (min-resolution: 192dpi) {
+            .hero {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                    url(../images/people-office-tab-2x.jpg);
+            }
+        }
 
     .hero-title {
         font-size: 56px;
@@ -384,13 +368,25 @@ font-family: "Roboto", sans-serif;
         max-width: 496px;
         margin-bottom: 36px;
     }
+       
+                
 }
 
 @media screen and (min-width: 1158px) {
     .hero {
         padding-top: 188px;
         padding-bottom: 188px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/people-office-lap.jpg);
     }
+        @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 2dppx),
+        (min-resolution: 192dpi) {
+            .hero {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                    url(../images/people-office-lap-2x.jpg);
+            }
+        }
     .hero-title {
         font-size: 56px;
         max-width: 496px;
@@ -490,6 +486,7 @@ width: calc((100% - 24px) / 2);
 }
 
 @media screen and (min-width: 1158px) {
+    
     .features {
         padding-top: 120px;
         padding-bottom: 120px;
